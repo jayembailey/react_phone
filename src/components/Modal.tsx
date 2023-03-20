@@ -2,7 +2,7 @@ import React from 'react'
 import ContactForm from './ContactForm';
 
 type Props = {
-    id?: string;
+    id?: any;
     open: boolean;
     onClose: () => void;
 }
@@ -27,7 +27,7 @@ const Modal = ( props: Props ) => {
                         </p>
                     </div>
                     <div className="flex flex-col items-center text-center mt-3 p-2">
-                        <ContactForm id={ props.id }/>
+                        <ContactForm id={ props.id}/>
                     </div>
                 </div>
             </div>

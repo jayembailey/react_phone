@@ -14,7 +14,7 @@ export const useGetData = () => {
         handleDataFetch();
     }, []) //Empty brackets here mean that the function will only run once. Place a component name inside to run function every time that particular component is accessed.
 
-    return { contactData, getData:handleDataFetch}
+    return { contactData, getData:handleDataFetch }
   
 }
 
